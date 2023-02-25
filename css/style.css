@@ -1,0 +1,156 @@
+:root {
+    --mainColor: #009ad8
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+nav {
+    background-color: #1e202b;
+}
+.try{
+    height: 50000px;
+}
+
+.current-weather{
+    height: f;
+}
+
+.nav-list ul li {
+    padding: 0.1rem 1.5rem;
+    border: 2px solid transparent;
+    transition: all 0.2s linear;
+    cursor: pointer;
+    border-radius: 15px;
+    margin: 0 0.5rem;
+}
+
+.nav-list ul li:first-of-type {
+    border-radius: 15px;
+    background-color: transparent;
+    border: 2px solid var(--mainColor);
+    color: var(--mainColor);
+}
+
+.nav-list ul li:hover {
+    border-radius: 15px;
+    background-color: transparent;
+    border: 2px solid var(--mainColor);
+    color: var(--mainColor);
+}
+
+section .home-content {
+    background-image: url("../img/banner.png");
+    background-repeat: no-repeat;
+    background-color: #1e202b;
+    width: 100%;
+}
+
+.home-content .search-bar {
+    width: 95%;
+}
+
+.home-content .search-bar input {
+    border: 1px solid transparent;
+    border-radius: 50px;
+    padding: 0.9rem;
+    width: 100%;
+    background-color: #1e202b;
+
+}
+
+.home-content .search-bar button {
+    /* transform: translateX(-125%); */
+    position: absolute;
+    right: 0.3%;
+    border-radius: 50px;
+    padding: 0.5rem 1.5rem;
+    border: none;
+    color: white;
+    background-color: #009ad8;
+}
+
+
+.home-content .weather-info .current-date {
+    background-color: #2d303d;
+    border-top-left-radius: 10px;
+}
+
+.home-content .weather-info .current-weather {
+    background-color: #323544;
+    border-bottom-left-radius: 10px;
+}
+
+.home-content .weather-info .current-degree {
+    font-size: 5rem;
+}
+
+.home-content .weather-info .tomorrow-date {
+    background-color: #222530;
+}
+
+.home-content .weather-info .tomorrow-weather {
+    background-color: #262936;
+}
+
+.home-content .weather-info .after-tomorrow-date {
+    background-color: #2d303d;
+    border-top-right-radius: 10px;
+}
+
+.home-content .weather-info .after-tomorrow-weather {
+    background-color: #323544;
+    border-bottom-right-radius: 10px;
+}
+
+footer {
+    background-color: #262936;
+}
+
+footer .subscribe-bar {
+    width: 65%;
+}
+
+footer .subscribe-bar input {
+    border: 1px solid transparent;
+    border-radius: 50px;
+    padding: 0.9rem;
+    width: 100%;
+    background-color: #1e202b;
+
+}
+
+footer .subscribe-bar button {
+    /* transform: translateX(-125%); */
+    position: absolute;
+    right: 0.5%;
+    border-radius: 50px;
+    padding: 0.5rem 1.5rem;
+    border: none;
+    color: white;
+    background-color: #009ad8;
+}
+
+footer .social-media i {
+    padding: 0.8rem;
+    color: #009ad8;
+    font-size: 1.5rem !important;
+    border-radius: 50%;
+    background-color: #1e202b;
+    transition: all 0.3s linear;
+}
+
+footer .social-media i:hover {
+    padding: 0.8rem;
+    color: white;
+    font-size: 1.2rem !important;
+    border-radius: 50%;
+    background-color: #009ad8;
+}
+
+.text-color{
+    color: var(--mainColor);
+}
